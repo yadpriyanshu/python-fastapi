@@ -34,4 +34,4 @@ def create_post(post: Post):
     print(post.dict())
     return{"data": "post"}
 
-# title str, content str, 
+# title str, content str
