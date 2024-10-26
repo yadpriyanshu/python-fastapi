@@ -35,3 +35,10 @@ def create_post(post: Post):
     return{"data": "post"}
 
 # title str, content str
+# Testing through Postman
+# {
+#     "title": "My First Post",
+#     "content": "This is an amazing post about FastAPI!",
+#     "published": true,
+#     "rating": 10
+# }
